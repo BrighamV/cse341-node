@@ -7,3 +7,13 @@ GET http://localhost:8080/contacts/6269c431fdd5c56c75afd024
 GET http://localhost:8080/contacts/6269c493fdd5c56c75afd025
 ###
 GET http://localhost:8080/contacts/6269c4c7fdd5c56c75afd026
+###
+
+// heroku
+GET https://use-341-api.herokuapp.com/contacts
+###
+GET https://use-341-api.herokuapp.com/contacts/6269c431fdd5c56c75afd024
+###
+GET https://use-341-api.herokuapp.com/contacts/6269c493fdd5c56c75afd025
+###
+GET https://use-341-api.herokuapp.com/contacts/6269c4c7fdd5c56c75afd026
