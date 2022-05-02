@@ -83,7 +83,7 @@ const deleteOne = async (req,res,next) => {
         { _id: userId },
         
         );
-        if (result.modifiedCount > 0){
+        if (result.deletedCount > 0){
             res.status(204).json(result)
         } else {
             res.status(500).json(result.error || 'an error occured');
