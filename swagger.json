@@ -5,7 +5,7 @@
     "description": "Description",
     "version": "1.0.0"
   },
-  "host": "https://use-341-api.herokuapp.com",
+  "host": "use-341-api.herokuapp.com",
   "basePath": "/",
   "schemes": [
     "http"
