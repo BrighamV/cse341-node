@@ -29,7 +29,10 @@ const addOne = async (req,res,next) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthday
+        birthday: req.body.birthday,
+        favoriteCandy: req.body.favoriteCandy,
+        favoriteFood: req.body.favoriteFood,
+        favoriteHobby: req.body.favoriteHobby
     }
     const result = await mongodb
     .getDB()
@@ -50,7 +53,10 @@ const editOne = async (req,res,next) => {
         lastName: req.body.lastName,
         email: req.body.email,
         favoriteColor: req.body.favoriteColor,
-        birthday: req.body.birthday
+        birthday: req.body.birthday,
+        favoriteCandy: req.body.favoriteCandy,
+        favoriteFood: req.body.favoriteFood,
+        favoriteHobby: req.body.favoriteHobby
     }
     const result = await mongodb
     .getDB()
