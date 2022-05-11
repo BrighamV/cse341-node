@@ -8,7 +8,7 @@
   "host": "use-341-api.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
